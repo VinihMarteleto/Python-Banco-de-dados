@@ -18,6 +18,26 @@ Arquivos principais
 - `requirements.txt`: dependências do projeto.
 - `.gitignore`: padrões para ignorar arquivos locais.
 
+Repositório remoto
+------------------
+Este projeto está publicado em: https://github.com/VinihMarteleto/Python-Banco-de-dados
+
+Figuras
+------
+As figuras geradas estão em `figures/` no repositório (HTML e PNG quando disponível). Você também pode abrir os arquivos HTML localmente para ver os gráficos interativos.
+
+Como contribuir / mudanças locais
+--------------------------------
+- Faça alterações no notebook ou nos scripts localmente.
+- Rode `python scripts/export_graphs.py` para regenerar as figuras.
+- Atualize `requirements.txt` se adicionar novas dependências.
+
+Uso rápido
+---------
+1. Instale dependências: `pip install -r requirements.txt`
+2. Execute: `python scripts/export_graphs.py` (gera HTML/PNG em `figures/`)
+3. Abra `inicial.ipynb` e execute as células na ordem para reproduzir a análise.
+
 Como reproduzir
 ---------------
 1. Crie e ative um ambiente virtual (opcional):
